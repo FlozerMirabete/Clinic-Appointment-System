@@ -1,0 +1,31 @@
+The Clinic Appointment System User Manual
+
+1. Register new account
+2. Login
+3. Click Patients tab
+4. Click Create New
+5. Fill up patient's name and appointment date
+6. Click Create
+
+To edit an entry:
+
+    1. Click Edit
+    2. After editing, click save
+
+To view details:
+
+    1. Click Details
+    2. Click Back to List after viewing details
+
+To delete an entry:
+
+    1. Click Delete
+    2. On Details view, click the red Delete button
+
+To delete an account:
+
+    1. On VS Studio '22, if SQL Server Object Explorer is hidden, click View tab then SQL Server Object Explorer
+    2. Go to (localdb)\MSSQLLocalDB > Databases > aspnet-ClinicAppointmentSystem-????????-????-????-????-???????????? > Tables
+    3. Right-click dbo.AspNetUsers and click View Data
+    4. A table containing a list of users appear in main window, right-click left column of user's row and click Delete
+    5. You are asked to delete row, click Yes.
